@@ -18,7 +18,7 @@ class Event{
   Event();
   virtual ~Event();
 
-  char* ReadEvent(FILE*);
+  void ReadEvent(string inname);
   void Clear();
   
  private:
